@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <title>Snazzy Paws Grooming - Services</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+    content="Discover our full range of dog grooming services in Hamilton CBD including full grooming packages, bath and brush, nail trims, spa treatments and add-ons. View pricing and book online.">
+
+  <link rel="stylesheet" href="styling.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navigation-bar">
+    <div class="container">
+      <a href="index.html" class="navigation-bar-title">
+        <img src="images/icons/logo-white.svg" alt="Snazzy Paws Grooming logo" class="logo" width="42" height="40"
+          loading="eager">
+        <span>Snazzy Paws Grooming</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="hamb">
+        <span class="screen-reader-only">Toggle navigation menu</span>
+        <span class="hamb-bar"></span>
+        <span class="hamb-bar"></span>
+        <span class="hamb-bar"></span>
+      </label>
+      <ul class="navigation-bar-list">
+        <li> <a href="index.html">HOME</a></li>
+        <li> <a href="services.html">SERVICES</a></li>
+        <li> <a href="gallery.html">GALLERY</a></li>
+        <li> <a href="contact.html">CONTACT US</a></li>
+        <li class="book-now-button">
+          <a href="booking.html" class="button button--small">BOOK NOW</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main id="main">
+
+    <section class="services-form-section">
+      <div class="container">
+        <div class="heading services-heading">
+          <h1>Professional Dog Grooming Services</h1>
+          <span class="page-description">From basic baths to full grooming, we keep your dog looking and feeling their
+            best</span>
+        </div>
+        <div class="form-box">
+          <div class="form-inner">
+            <form class="form-input">
+              <label for="service-search" class="form-label form-label--large">
+                Search for your perfect service:
+              </label>
+              <div class="form form--row form--attached">
+                <input type="text" id="service-search" name="search" placeholder="Search..">
+                <button type="submit" class="button button--small">Search</button>
+              </div>
+
+              <label class="form-label form-label--large">
+                Show pricing by pet size:
+              </label>
+              <div class="form form--grid">
+
+
+                <label for="breeds" class="screen-reader-only">
+                  Select your dog's breed
+                </label>
+
+                <select id="breeds" name="breeds">
+                  <option value="" selected="selected">Select a breed...</option>
+                  <option value="lab">Labrador</option>
+                  <option value="poodle">Poodle</option>
+                  <option value="jack-russel">Jack Russel</option>
+                  <option value="miniature-schnauzer">Miniature Schnauzer</option>
+                  <option value="cocker-spaniel">Cocker Spaniel</option>
+                  <option value="great-dane">Great Dane</option>
+                  <option value="great-dane">Other</option>
+                </select>
+
+                <label for="weight" class="screen-reader-only">
+                  Select your dog's weight
+                </label>
+                <select id="weight" name="weight">
+                  <option value="" selected="selected">Select a weight...</option>
+                  <option value="xsmall">Up to 5kg</option>
+                  <option value="small">5kg to 10kg</option>
+                  <option value="medium">10kg to 25kg</option>
+                  <option value="large">25kg to 40kg</option>
+                  <option value="xlarge">Over 40kg</option>
+                </select>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="services-features-section">
+      <div class="container">
+
+        <div class="service-feature-heading">
+          <img src="images/icons/star.png" alt="Star icon" class="services-logo-header" width="48" height="48"
+            loading="lazy">
+          <h2>Featured services</h2>
+        </div>
+
+        <div class="card-container">
+          <div class="card-outer">
+            <div class="card-inner card-inner--medium">
+              <div class="card-pic">
+                <img src="images/icons/toothbrush1.png" alt="Toothbruch icon" class="card-icon" width="60" height="60"
+                  loading="lazy">
+              </div>
+              <div class="card-header card-header--medium">
+                <h3>Teeth brushing</h3>
+              </div>
+              <div class="card-body-text--medium">
+                <ul class="card-list">
+                  <li>Pet safe toothpaste</li>
+                  <li>Gentle plaque removal</li>
+                  <li>Improves breath</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <div class="card-pricing">
+                  <div class="card-price">
+                    <p>Starting from:</p>
+                    <p>$60 - $120*</p>
+                  </div>
+                  <div class="card-button">
+                    <a href="booking.html" class="button button--full">Book now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-outer">
+            <div class="card-inner card-inner--medium">
+              <div class="card-pic">
+                <img src="images/icons/full-groom.png" alt="Full groom icon" class="card-icon" width="60" height="60"
+                  loading="lazy">
+              </div>
+              <div class="card-header card-header--medium">
+                <h3>Full grooming package</h3>
+              </div>
+              <div class="card-body-text--medium">
+                <ul class="card-list">
+                  <li>Full professional groom</li>
+                  <li>Bath and haircut</li>
+                  <li>Teeth brushing nail trim, and ear cleaning</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <div class="card-pricing">
+                  <div class="card-price">
+                    <p>Starting from:</p>
+                    <p>$60 - $120*</p>
+                  </div>
+                  <div class="card-button">
+                    <a href="booking.html" class="button button--full">Book now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-outer">
+            <div class="card-inner card-inner--medium">
+              <div class="card-pic">
+                <img src="images/icons/deshedding.png" alt="deshedding icon" class="card-icon" width="60" height="60"
+                  loading="lazy">
+              </div>
+              <div class="card-header card-header--medium">
+                <h3>De-shedding add-on</h3>
+              </div>
+              <div class="card-body-text--medium">
+                <ul class="card-list">
+                  <li>Deep undercoat removal</li>
+                  <li>Lighter and smoother coat</li>
+                  <li>Available with Bath and brush, or Haircut treatments</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <div class="card-pricing">
+                  <div class="card-price">
+                    <p>Starting from:</p>
+                    <p>$20 - $40**</p>
+                  </div>
+                  <div class="card-button">
+                    <a href="booking.html" class="button button--full">Book now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-all-section">
+      <div class="container">
+        <div class="services-features-section-inner">
+          <div class="service-feature-heading">
+            <img src="images/icons/all-services.png" alt="Scissors icon" class="services-logo-header" width="48"
+              height="48" loading="lazy">
+            <h2>All services</h2>
+          </div>
+          <div class="services-all">
+
+
+            <div class="card-container card-container--compact">
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/bath-brush.png" alt="Bath and brush"
+                      class="services-card-icon-feature--compact" width="40" height="40" loading="lazy">
+                    <h3>Bath and brush</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Shampoo and blowdry</li>
+                      <li>Brush out</li>
+                      <li>Nailtrim</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$60 - $120*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/haircut.png" alt="Haircut icon" class="services-card-icon-feature--compact"
+                      width="40" height="40" loading="lazy">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Bath and blowdry</li>
+                      <li>Haircut (based on breed standard or owner's preference)</li>
+                      <li>Nail trim</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$60 - $120</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/nail.png" alt="Nail trim icon" class="services-card-icon-feature--compact"
+                      width="40" height="40" loading="lazy">
+                    <h3>Nail trim</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Trim nails</li>
+                      <li>Filing (if required)</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$10 - $20*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/ear.png" alt="Ear cleaning icon" class="services-card-icon-feature--compact"
+                      width="40" height="40" loading="lazy">
+                    <h3>Ear cleaning</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Gentle cleaning</li>
+                      <li>Removes wax and debris</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$10 - $15*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/toothbrush1.png" alt="Toothbrush icon"
+                      class="services-card-icon-feature--compact" width="40" height="40" loading="lazy">
+                    <h3>Teeth brushing</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Pet safe toothpaste</li>
+                      <li>Gentle plaque removal</li>
+                      <li>Improves breath</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$10 - $15</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/deshedding.png" alt="Deshedding icon"
+                      class="services-card-icon-feature--compact" width="40" height="40" loading="lazy">
+                    <h3>De-shedding add on</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Removes loose fur and undercoat</li>
+                      <li>Reduces shedding by up to 90%</li>
+                      <li>Promotes healthier skin and coat</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$20 - $40**</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/tick-and-flea.png" alt="Flea and tick icon"
+                      class="services-card-icon-feature--compact" width="40" height="40" loading="lazy">
+                    <h3>Flea and tick treatment</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Shampoo</li>
+                      <li>Preventative treatment</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$15 - $30*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/spa.png" alt="Spa icon" class="services-card-icon-feature--compact"
+                      width="40" height="40" loading="lazy">
+                    <h3>Spa package</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Bath and haircut</li>
+                      <li>Teeth brushing and nail trim</li>
+                      <li>Special scents and conditioners</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$75 - $150*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/express.png" alt="Express icon" class="services-card-icon-feature--compact"
+                      width="40" height="40" loading="lazy">
+                    <h3>Express services</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Minimal grooming</li>
+                      <li>Touch ups</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Add on from:</p>
+                        <p>$15 - $25*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/medicated-bath.png" alt="Medicated bath icon"
+                      class="services-card-icon-feature--compact" width="40" height="40" loading="lazy">
+                    <h3>Medicated bath</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Ideal for pets with skin conditions</li>
+                      <li>Special shampoo</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$20 - $40*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/special-breed.png" alt="Special breed cut icon"
+                      class="services-card-icon-feature--compact" width="40" height="40" loading="lazy">
+                    <h3>Special breed cut</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Breed specific cuts</li>
+                      <li>Custmon styling based on owner prefernce</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Pricing subject to quotation</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/puppy.png" alt="Puppy icon" class="services-card-icon-feature--compact"
+                      width="40" height="40" loading="lazy">
+                    <h3>Puppy package</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Introductory grooming service</li>
+                      <li>Tailored for puppies</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$30 - $60*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/senior.png" alt="Senior icon" class="services-card-icon-feature--compact"
+                      width="40" height="40" loading="lazy">
+                    <h3>Senior dog package</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Tailored for older dogs</li>
+                      <li>Special card and handling</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Starting from:</p>
+                        <p>$40 - $80*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-outer">
+                <div class="card-inner card-inner--compact">
+                  <div class="card-header card-header--compact">
+                    <img src="images/icons/full-groom.png" alt="Full groom icon"
+                      class="services-card-icon-feature--compact" width="40" height="40" loading="lazy">
+                    <h3>Full grooming package</h3>
+                  </div>
+                  <div class="card-body-text--compact">
+                    <ul class="card-list">
+                      <li>Bath and haircut</li>
+                      <li>Teeth brushing, nail trim and ear cleaning</li>
+                      <li>Full professional groom</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer card-footer--compact">
+                    <div class="card-pricing">
+                      <div class="card-price">
+                        <p>Add on from:</p>
+                        <p>$60 - $120*</p>
+                      </div>
+                      <div class="card-button">
+                        <a href="booking.html" class="button button--small">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="terms">
+          <p>*Pricing is indicative only. Actual price may differ depending on breed and dog size.</p>
+          <p>*De-shedding treatment is only available as an add on to the Bath and brush, or Haircut treatments.</p>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-column">
+        <div class="basic-details">
+          <div class="footer-logo-title">
+            <img src="images/icons/logo-white.svg" alt="Snazzy Paws Grooming logo" class="footer-logo">
+            <h3>Snazzy paws grooming</h3>
+          </div>
+          <p>Open 9:00am - 5:00pm Monday to Saturday</p>
+
+          <div class="socials">
+            <h3>Check out our socials!</h3>
+            <div class="socials-icons">
+              <a href="https://www.facebook.com/Snazzypaws/" target="_blank" rel="noopener">
+                <img src="images/icons/facebooksvg.svg" alt="Facebook (opens in a new tab)">
+              </a>
+              <a href="https://www.instagram.com/snazzypawsdoggroomingnarangba/?hl=en" target="_blank" rel="noopener">
+                <img src="images/icons/instagram.svg" alt="Instagram (opens in a new tab)">
+              </a>
+
+              <a href="https://www.tiktok.com/your-real-link" target="_blank" rel="noopener">
+                <img src="images/icons/tiktok.svg" alt="TikTok (opens in a new tab)">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <div class="quick-links">
+          <h3>Quick links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="booking.html">MAKE A BOOKING</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <div class="contact-us">
+          <h3>Contact us</h3>
+          <p>Shop 3 - 81 Main Street</p>
+          <p>Central CBD District</p>
+          <p>Hamilton 2879</p>
+          <br>
+          <p>Phone: (000) 123 12335</p>
+          <p>
+            <a href="mailto:hello@snazzypawsgrooming.co.nz?subject=General%20enquiry" class="email-button">
+              Email:
+              <span class="email-address">hello@snazzypawsgrooming.co.nz</span>
+              <span class="screen-reader-only">(opens your email application)</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
